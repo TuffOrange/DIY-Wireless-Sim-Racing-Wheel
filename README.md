@@ -1,3 +1,4 @@
+
 <div align="center">
 
 # DIY Wireless Sim Racing Wheel
@@ -32,6 +33,7 @@
 This project turns a pair of Arduino boards into a functional sim-racing wheel: a **main unit** built around a Pro Micro handles the wheel, mode switching, an OLED status display, and USB HID output to the PC, while a separate **pedal unit** built around a Nano reads the throttle and brake and transmits the data wirelessly over nRF24L01, eliminating the need to run a cable across the floor.
 
 ---
+<img width="1280" height="720" alt="5264820368445219326_121" src="https://github.com/user-attachments/assets/7b5d61d0-0541-489a-b5e1-641f369b0364" />
 
 ## Features
 
@@ -116,7 +118,7 @@ This project turns a pair of Arduino boards into a functional sim-racing wheel: 
 > **Note.** Place a 10–47µF electrolytic capacitor directly across each nRF24 module's VCC/GND pins. Without it, the radio link can be unstable or fail to establish entirely.
 
 ---
-
+<img width="1280" height="720" alt="5264820368445219327_121" src="https://github.com/user-attachments/assets/8c97bc97-687f-430d-8eb0-e872c57d7aa6" />
 ## Flashing
 
 The project builds with **PlatformIO** rather than the Arduino IDE, which makes juggling two boards and two dependency sets considerably easier.
@@ -183,6 +185,7 @@ or vice versa.
 </details>
 
 ---
+<img width="1280" height="720" alt="5264820368445219325_121" src="https://github.com/user-attachments/assets/c302a7c9-a7a0-412f-802b-c85e80e071e7" />
 
 ## License
 
